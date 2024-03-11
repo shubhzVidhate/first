@@ -1,0 +1,131 @@
+.nav-link{
+    color: white !important;
+}
+.list_style{
+    list-style-type: none;
+    display: none;
+}
+.nav-item{
+    transition: all 0.2s;
+}
+#amchyabaddal:hover .dropdown-menu{
+    display: inline-block;
+}
+.nav-item:hover{
+ background-color: #9ACD32;
+}
+/* #header_first{
+    height: 60px !important;
+    position: relative;
+    z-index: 1;
+} */
+.modal{
+    position: relative;
+    z-index: 2;
+}
+.lock{
+    margin-left: 30%;
+    border: 2px solid #12687F;
+    transition: all 0.8s;
+}
+.lock:hover{
+    background-color: #12687F;
+    color: #9ACD32;
+    box-shadow: 0px 0px 0px 10px white,0px 0px 0px 11px #12687F;
+}
+.card{
+box-shadow: 0px 0px 15px 0px rgb(142, 134, 134);
+margin-bottom: 20px;
+}
+.card-title:hover{
+    color:#12687F;
+    cursor: pointer;
+}
+.card:hover{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+@media (max-width:667px) {
+    .lock{
+        margin-left: 40%;
+    }
+    #amchyabaddal:hover .dropdown-menu{
+        display:block;
+    }
+}
+
+/* Feedback Css Code  */
+
+.background_img{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.background_image_section{
+    height: 450px;
+    width: 100%;
+}
+textarea{
+    width: 500px;
+}
+.btn_my{
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: #12687F;
+}
+.box_shadow_class{
+     width: 80%; 
+     height: 92vh;
+}
+#janun_ghya p:hover{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul li i:hover{
+    color: #12687F;
+    cursor: pointer;
+}
+.shadow-none h1{
+    opacity: 0;
+    transition:all 0.5s;
+}
+.shadow-none h1:hover{
+    opacity: 1;
+}
+#nagebaba{
+    opacity: 0;
+}
+.branch_address{
+    box-shadow: 0px 0px 4px 0px rgb(225, 220, 220);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.branch_address h2{
+    color: #12687F;
+    font-size: 20px !important;
+}
+
+@media (max-width:667px) {
+    .background_image_section{
+        height: 300px;
+        width: 100%;
+    }
+    textarea{
+        width: 400px;
+    }
+    .box_shadow_class{
+        width: 80%; 
+        height: 122vh;
+   }
+   #nagebaba{
+    text-align: right;
+    opacity: 1;
+   }
+   #small{
+    display: none;
+   }
+}
